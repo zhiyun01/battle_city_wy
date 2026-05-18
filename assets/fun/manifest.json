@@ -1,0 +1,126 @@
+{
+  "spriteSize": 32,
+  "sourceSpriteSize": 128,
+  "sheet": "assets/fun/sheet_32.png",
+  "sourceSheet": "assets/fun/sheet_source.png",
+  "sheetColumns": 6,
+  "sheetOrder": [
+    "tank_player",
+    "tank_enemy_basic",
+    "tank_enemy_fast",
+    "tank_enemy_armored",
+    "bullet",
+    "explosion_1",
+    "explosion_2",
+    "explosion_3",
+    "power_star",
+    "power_clock",
+    "power_helmet",
+    "power_shovel",
+    "power_grenade",
+    "extra_life",
+    "shield_sparkle",
+    "spawn_flash",
+    "score_coin",
+    "tile_cracked_brick",
+    "tile_glowing_steel",
+    "tile_flower_field",
+    "tile_lava",
+    "tile_mud",
+    "tile_road_arrow"
+  ],
+  "sprites": {
+    "tank_player": {
+      "source": "assets/fun/source/tank_player.png",
+      "runtime": "assets/fun/32/tank_player.png"
+    },
+    "tank_enemy_basic": {
+      "source": "assets/fun/source/tank_enemy_basic.png",
+      "runtime": "assets/fun/32/tank_enemy_basic.png"
+    },
+    "tank_enemy_fast": {
+      "source": "assets/fun/source/tank_enemy_fast.png",
+      "runtime": "assets/fun/32/tank_enemy_fast.png"
+    },
+    "tank_enemy_armored": {
+      "source": "assets/fun/source/tank_enemy_armored.png",
+      "runtime": "assets/fun/32/tank_enemy_armored.png"
+    },
+    "bullet": {
+      "source": "assets/fun/source/bullet.png",
+      "runtime": "assets/fun/32/bullet.png"
+    },
+    "explosion_1": {
+      "source": "assets/fun/source/explosion_1.png",
+      "runtime": "assets/fun/32/explosion_1.png"
+    },
+    "explosion_2": {
+      "source": "assets/fun/source/explosion_2.png",
+      "runtime": "assets/fun/32/explosion_2.png"
+    },
+    "explosion_3": {
+      "source": "assets/fun/source/explosion_3.png",
+      "runtime": "assets/fun/32/explosion_3.png"
+    },
+    "power_star": {
+      "source": "assets/fun/source/power_star.png",
+      "runtime": "assets/fun/32/power_star.png"
+    },
+    "power_clock": {
+      "source": "assets/fun/source/power_clock.png",
+      "runtime": "assets/fun/32/power_clock.png"
+    },
+    "power_helmet": {
+      "source": "assets/fun/source/power_helmet.png",
+      "runtime": "assets/fun/32/power_helmet.png"
+    },
+    "power_shovel": {
+      "source": "assets/fun/source/power_shovel.png",
+      "runtime": "assets/fun/32/power_shovel.png"
+    },
+    "power_grenade": {
+      "source": "assets/fun/source/power_grenade.png",
+      "runtime": "assets/fun/32/power_grenade.png"
+    },
+    "extra_life": {
+      "source": "assets/fun/source/extra_life.png",
+      "runtime": "assets/fun/32/extra_life.png"
+    },
+    "shield_sparkle": {
+      "source": "assets/fun/source/shield_sparkle.png",
+      "runtime": "assets/fun/32/shield_sparkle.png"
+    },
+    "spawn_flash": {
+      "source": "assets/fun/source/spawn_flash.png",
+      "runtime": "assets/fun/32/spawn_flash.png"
+    },
+    "score_coin": {
+      "source": "assets/fun/source/score_coin.png",
+      "runtime": "assets/fun/32/score_coin.png"
+    },
+    "tile_cracked_brick": {
+      "source": "assets/fun/source/tile_cracked_brick.png",
+      "runtime": "assets/fun/32/tile_cracked_brick.png"
+    },
+    "tile_glowing_steel": {
+      "source": "assets/fun/source/tile_glowing_steel.png",
+      "runtime": "assets/fun/32/tile_glowing_steel.png"
+    },
+    "tile_flower_field": {
+      "source": "assets/fun/source/tile_flower_field.png",
+      "runtime": "assets/fun/32/tile_flower_field.png"
+    },
+    "tile_lava": {
+      "source": "assets/fun/source/tile_lava.png",
+      "runtime": "assets/fun/32/tile_lava.png"
+    },
+    "tile_mud": {
+      "source": "assets/fun/source/tile_mud.png",
+      "runtime": "assets/fun/32/tile_mud.png"
+    },
+    "tile_road_arrow": {
+      "source": "assets/fun/source/tile_road_arrow.png",
+      "runtime": "assets/fun/32/tile_road_arrow.png"
+    }
+  }
+}

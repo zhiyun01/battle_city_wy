@@ -1,0 +1,166 @@
+{
+  "spriteSize": 32,
+  "sourceSpriteSize": 128,
+  "sheet": "assets/variety/sheet_32.png",
+  "sourceSheet": "assets/variety/sheet_source.png",
+  "sheetColumns": 8,
+  "sheetOrder": [
+    "power_magnet",
+    "power_repair",
+    "power_lightning",
+    "power_rocket",
+    "power_radar",
+    "power_key",
+    "power_crown",
+    "power_gem",
+    "hazard_mine",
+    "hazard_oil",
+    "hazard_spikes",
+    "hazard_warning",
+    "portal_blue",
+    "portal_orange",
+    "effect_smoke_1",
+    "effect_smoke_2",
+    "effect_smoke_3",
+    "effect_confetti",
+    "effect_ricochet",
+    "effect_laser",
+    "effect_firework",
+    "reward_chest",
+    "reward_badge",
+    "decor_flag",
+    "decor_crates",
+    "tile_bounce_pad",
+    "tile_speed_boost",
+    "tile_neon_bridge",
+    "tile_crater",
+    "tile_force_field",
+    "tile_switch"
+  ],
+  "sprites": {
+    "power_magnet": {
+      "source": "assets/variety/source/power_magnet.png",
+      "runtime": "assets/variety/32/power_magnet.png"
+    },
+    "power_repair": {
+      "source": "assets/variety/source/power_repair.png",
+      "runtime": "assets/variety/32/power_repair.png"
+    },
+    "power_lightning": {
+      "source": "assets/variety/source/power_lightning.png",
+      "runtime": "assets/variety/32/power_lightning.png"
+    },
+    "power_rocket": {
+      "source": "assets/variety/source/power_rocket.png",
+      "runtime": "assets/variety/32/power_rocket.png"
+    },
+    "power_radar": {
+      "source": "assets/variety/source/power_radar.png",
+      "runtime": "assets/variety/32/power_radar.png"
+    },
+    "power_key": {
+      "source": "assets/variety/source/power_key.png",
+      "runtime": "assets/variety/32/power_key.png"
+    },
+    "power_crown": {
+      "source": "assets/variety/source/power_crown.png",
+      "runtime": "assets/variety/32/power_crown.png"
+    },
+    "power_gem": {
+      "source": "assets/variety/source/power_gem.png",
+      "runtime": "assets/variety/32/power_gem.png"
+    },
+    "hazard_mine": {
+      "source": "assets/variety/source/hazard_mine.png",
+      "runtime": "assets/variety/32/hazard_mine.png"
+    },
+    "hazard_oil": {
+      "source": "assets/variety/source/hazard_oil.png",
+      "runtime": "assets/variety/32/hazard_oil.png"
+    },
+    "hazard_spikes": {
+      "source": "assets/variety/source/hazard_spikes.png",
+      "runtime": "assets/variety/32/hazard_spikes.png"
+    },
+    "hazard_warning": {
+      "source": "assets/variety/source/hazard_warning.png",
+      "runtime": "assets/variety/32/hazard_warning.png"
+    },
+    "portal_blue": {
+      "source": "assets/variety/source/portal_blue.png",
+      "runtime": "assets/variety/32/portal_blue.png"
+    },
+    "portal_orange": {
+      "source": "assets/variety/source/portal_orange.png",
+      "runtime": "assets/variety/32/portal_orange.png"
+    },
+    "effect_smoke_1": {
+      "source": "assets/variety/source/effect_smoke_1.png",
+      "runtime": "assets/variety/32/effect_smoke_1.png"
+    },
+    "effect_smoke_2": {
+      "source": "assets/variety/source/effect_smoke_2.png",
+      "runtime": "assets/variety/32/effect_smoke_2.png"
+    },
+    "effect_smoke_3": {
+      "source": "assets/variety/source/effect_smoke_3.png",
+      "runtime": "assets/variety/32/effect_smoke_3.png"
+    },
+    "effect_confetti": {
+      "source": "assets/variety/source/effect_confetti.png",
+      "runtime": "assets/variety/32/effect_confetti.png"
+    },
+    "effect_ricochet": {
+      "source": "assets/variety/source/effect_ricochet.png",
+      "runtime": "assets/variety/32/effect_ricochet.png"
+    },
+    "effect_laser": {
+      "source": "assets/variety/source/effect_laser.png",
+      "runtime": "assets/variety/32/effect_laser.png"
+    },
+    "effect_firework": {
+      "source": "assets/variety/source/effect_firework.png",
+      "runtime": "assets/variety/32/effect_firework.png"
+    },
+    "reward_chest": {
+      "source": "assets/variety/source/reward_chest.png",
+      "runtime": "assets/variety/32/reward_chest.png"
+    },
+    "reward_badge": {
+      "source": "assets/variety/source/reward_badge.png",
+      "runtime": "assets/variety/32/reward_badge.png"
+    },
+    "decor_flag": {
+      "source": "assets/variety/source/decor_flag.png",
+      "runtime": "assets/variety/32/decor_flag.png"
+    },
+    "decor_crates": {
+      "source": "assets/variety/source/decor_crates.png",
+      "runtime": "assets/variety/32/decor_crates.png"
+    },
+    "tile_bounce_pad": {
+      "source": "assets/variety/source/tile_bounce_pad.png",
+      "runtime": "assets/variety/32/tile_bounce_pad.png"
+    },
+    "tile_speed_boost": {
+      "source": "assets/variety/source/tile_speed_boost.png",
+      "runtime": "assets/variety/32/tile_speed_boost.png"
+    },
+    "tile_neon_bridge": {
+      "source": "assets/variety/source/tile_neon_bridge.png",
+      "runtime": "assets/variety/32/tile_neon_bridge.png"
+    },
+    "tile_crater": {
+      "source": "assets/variety/source/tile_crater.png",
+      "runtime": "assets/variety/32/tile_crater.png"
+    },
+    "tile_force_field": {
+      "source": "assets/variety/source/tile_force_field.png",
+      "runtime": "assets/variety/32/tile_force_field.png"
+    },
+    "tile_switch": {
+      "source": "assets/variety/source/tile_switch.png",
+      "runtime": "assets/variety/32/tile_switch.png"
+    }
+  }
+}

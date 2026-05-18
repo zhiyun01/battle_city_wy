@@ -1,0 +1,56 @@
+{
+  "tileSize": 32,
+  "sourceTileSize": 128,
+  "sheet": "assets/tiles/sheet_32.png",
+  "sourceSheet": "assets/tiles/sheet_source.png",
+  "sheetColumns": 3,
+  "sheetOrder": [
+    "empty",
+    "brick",
+    "steel",
+    "water",
+    "forest",
+    "ice",
+    "base",
+    "base_destroyed",
+    "boundary"
+  ],
+  "tiles": {
+    "empty": {
+      "source": "assets/tiles/source/empty.png",
+      "runtime": "assets/tiles/32/empty.png"
+    },
+    "brick": {
+      "source": "assets/tiles/source/brick.png",
+      "runtime": "assets/tiles/32/brick.png"
+    },
+    "steel": {
+      "source": "assets/tiles/source/steel.png",
+      "runtime": "assets/tiles/32/steel.png"
+    },
+    "water": {
+      "source": "assets/tiles/source/water.png",
+      "runtime": "assets/tiles/32/water.png"
+    },
+    "forest": {
+      "source": "assets/tiles/source/forest.png",
+      "runtime": "assets/tiles/32/forest.png"
+    },
+    "ice": {
+      "source": "assets/tiles/source/ice.png",
+      "runtime": "assets/tiles/32/ice.png"
+    },
+    "base": {
+      "source": "assets/tiles/source/base.png",
+      "runtime": "assets/tiles/32/base.png"
+    },
+    "base_destroyed": {
+      "source": "assets/tiles/source/base_destroyed.png",
+      "runtime": "assets/tiles/32/base_destroyed.png"
+    },
+    "boundary": {
+      "source": "assets/tiles/source/boundary.png",
+      "runtime": "assets/tiles/32/boundary.png"
+    }
+  }
+}

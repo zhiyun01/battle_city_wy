@@ -1,0 +1,69 @@
+{
+  "imageSize": {
+    "width": 800,
+    "height": 608
+  },
+  "tileSize": 32,
+  "levels": [
+    {
+      "id": 1,
+      "name": "Level 1",
+      "difficulty": 1,
+      "image": "assets/levels/level_01.png"
+    },
+    {
+      "id": 2,
+      "name": "Level 2",
+      "difficulty": 2,
+      "image": "assets/levels/level_02.png"
+    },
+    {
+      "id": 3,
+      "name": "Level 3",
+      "difficulty": 3,
+      "image": "assets/levels/level_03.png"
+    },
+    {
+      "id": 4,
+      "name": "Level 4",
+      "difficulty": 4,
+      "image": "assets/levels/level_04.png"
+    },
+    {
+      "id": 5,
+      "name": "Level 5",
+      "difficulty": 5,
+      "image": "assets/levels/level_05.png"
+    },
+    {
+      "id": 6,
+      "name": "Level 6",
+      "difficulty": 6,
+      "image": "assets/levels/level_06.png"
+    },
+    {
+      "id": 7,
+      "name": "Level 7",
+      "difficulty": 7,
+      "image": "assets/levels/level_07.png"
+    },
+    {
+      "id": 8,
+      "name": "Level 8",
+      "difficulty": 8,
+      "image": "assets/levels/level_08.png"
+    },
+    {
+      "id": 9,
+      "name": "Level 9",
+      "difficulty": 9,
+      "image": "assets/levels/level_09.png"
+    },
+    {
+      "id": 10,
+      "name": "Level 10",
+      "difficulty": 10,
+      "image": "assets/levels/level_10.png"
+    }
+  ]
+}
