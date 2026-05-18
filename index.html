@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Battle City Web</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <header class="titlebar">
+        <h1>BATTLE CITY</h1>
+      </header>
+
+      <section class="topbar" aria-label="Game status">
+        <div class="stat">
+          <span>LEVEL</span>
+          <strong id="levelLabel">1</strong>
+        </div>
+        <div class="stat">
+          <span>SCORE</span>
+          <strong id="scoreLabel">0</strong>
+        </div>
+        <div class="stat">
+          <span>LIVES</span>
+          <strong id="livesLabel">3</strong>
+        </div>
+        <button id="muteButton" class="icon-button" type="button" aria-label="Toggle sound" title="Toggle sound">♪</button>
+      </section>
+
+      <canvas id="game" width="800" height="608" aria-label="Battle City game canvas"></canvas>
+
+      <section class="controls" aria-label="Game controls">
+        <button id="startButton" type="button">Start</button>
+        <button id="restartButton" type="button">Restart</button>
+        <button id="prevLevelButton" type="button">Level -</button>
+        <button id="nextLevelButton" type="button">Level +</button>
+        <button id="helpButton" type="button">Help</button>
+      </section>
+
+      <section id="instructions" class="instructions" aria-label="Instructions">
+        <div class="instructions-header">
+          <h1>How To Play</h1>
+          <p>Drive your tank, protect the base, and clear the enemy tanks.</p>
+        </div>
+
+        <div class="help-grid">
+          <article class="help-panel">
+            <h2>Controls</h2>
+            <p><strong>Move:</strong> Arrow keys or WASD</p>
+            <p><strong>Shoot:</strong> Space</p>
+            <p><strong>Sound:</strong> Start turns on arcade music and effects. Use ♪ to mute.</p>
+          </article>
+
+          <article class="help-panel">
+            <h2>Goal</h2>
+            <p>Destroy enemies before they destroy your base.</p>
+            <p>You lose a life if your tank gets hit. You lose the round if the base is destroyed.</p>
+          </article>
+        </div>
+
+        <div class="tile-guide" aria-label="Tile guide">
+          <div class="tile-help"><img src="assets/tiles/32/brick.png" alt="" /><span>Brick: blocks tanks and bullets, can be destroyed.</span></div>
+          <div class="tile-help"><img src="assets/tiles/32/steel.png" alt="" /><span>Steel: blocks tanks and bullets, very strong.</span></div>
+          <div class="tile-help"><img src="assets/tiles/32/water.png" alt="" /><span>Water: tanks cannot drive through it, bullets fly over it.</span></div>
+          <div class="tile-help"><img src="assets/tiles/32/forest.png" alt="" /><span>Forest: tanks can hide under it.</span></div>
+          <div class="tile-help"><img src="assets/tiles/32/ice.png" alt="" /><span>Ice: open ground with a slippery look.</span></div>
+          <div class="tile-help"><img src="assets/fun/32/tile_mud.png" alt="" /><span>Mud: slows tanks down.</span></div>
+          <div class="tile-help"><img src="assets/fun/32/tile_lava.png" alt="" /><span>Lava: hurts the player tank.</span></div>
+          <div class="tile-help"><img src="assets/fun/32/tile_road_arrow.png" alt="" /><span>Arrow road: speeds tanks up.</span></div>
+          <div class="tile-help"><img src="assets/variety/32/tile_speed_boost.png" alt="" /><span>Speed boost: fast floor tile.</span></div>
+          <div class="tile-help"><img src="assets/variety/32/tile_bounce_pad.png" alt="" /><span>Bounce pad: open special floor tile.</span></div>
+          <div class="tile-help"><img src="assets/variety/32/tile_force_field.png" alt="" /><span>Force field: blocks tanks and bullets.</span></div>
+          <div class="tile-help"><img src="assets/tiles/32/base.png" alt="" /><span>Base: protect this. If it is hit, game over.</span></div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="src/game.js"></script>
+  </body>
+</html>
